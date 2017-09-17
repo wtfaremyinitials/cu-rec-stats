@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "awaiting": "^3.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^7.1.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "fmt": "prettier --write '*.js'"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "es5"
+  }
+}
