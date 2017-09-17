@@ -3,7 +3,6 @@ const cheerio = require('cheerio')
 const { delay } = require('awaiting')
 
 const INTERVAL = 15 * (60 * 1000) // 15 minutes
-const FILEPATH = './cu-rec-center.csv'
 const SERVER = 'www.connect2concepts.com'
 const PATH = '/connect2/?type=circle&key=11EEE07F-7BED-418E-B7F7-547D2BB046F5'
 
