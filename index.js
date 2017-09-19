@@ -33,7 +33,9 @@ async function check() {
             percent = Number(percent)
             title = title.replace('&amp;', '&')
             count = Number(count.match(/Last Count: (\d+)/)[1])
-            updated = new Date(updated.match(/Updated: (.+)/)[1])
+            updated = new Date(
+                updated.match(/Updated: (.+)/)[1].trim() + ' MDT'
+            )
 
             return { title, count, percent, updated }
         })
